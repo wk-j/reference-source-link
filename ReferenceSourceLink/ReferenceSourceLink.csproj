@@ -39,6 +39,7 @@
       <HintPath>..\packages\Microsoft.CodeAnalysis.Workspaces.Common.1.3.2\lib\net45\Microsoft.CodeAnalysis.Workspaces.Desktop.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.VisualStudio.Language.Intellisense, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable, Version=1.1.37.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Collections.Immutable.1.1.37\lib\dotnet\System.Collections.Immutable.dll</HintPath>
@@ -71,9 +72,19 @@
     <Reference Include="System.Security" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ref\Constants.cs" />
+    <Compile Include="Ref\DeclaredSymbolInfo.cs" />
     <Compile Include="Hash.cs" />
+    <Compile Include="Ref\Huffman.cs" />
+    <Compile Include="Ref\Measure.cs" />
+    <Compile Include="Ref\Paths.cs" />
+    <Compile Include="Ref\PriorityQueue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Navigator.cs" />
+    <Compile Include="Ref\Serialization.cs" />
+    <Compile Include="Ref\SymbolIDService.cs" />
+    <Compile Include="Ref\SymbolKindText.cs" />
+    <Compile Include="Ref\SymbolSorter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

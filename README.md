@@ -9,7 +9,7 @@ We need two signature to create URL.
 - Assembly name (`mscorlib`)
 - Symbol ID (`M:System.Int32.TryParse(System.String,System.Int32@)`)
 
-## Symbol ID prefix
+## Symbol prefix
 
 - M: = Method
 - E: = Event

@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceSourceLink", "ReferenceSourceLink\ReferenceSourceLink.csproj", "{1A2B4E6F-9E42-4E71-8B3F-D2C5FCC27DBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceSourceLink.Tests", "ReferenceSourceLink.Tests\ReferenceSourceLink.Tests.csproj", "{F66E78D9-C6BC-4F39-A592-5196F9C672B4}"
@@ -19,5 +20,8 @@ Global
 		{F66E78D9-C6BC-4F39-A592-5196F9C672B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F66E78D9-C6BC-4F39-A592-5196F9C672B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F66E78D9-C6BC-4F39-A592-5196F9C672B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
